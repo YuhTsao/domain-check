@@ -1,6 +1,6 @@
 // 定义外部变量
 let sitename = "域名监控"; //变量名SITENAME，自定义站点名称，默认为“域名监控”
-let domains = ""; //变量名DOMAINS，填入域名信息json文件直链，必须设置的变量
+let domains = "https://assets.natz.eu.org/json/domains.json"; //变量名DOMAINS，填入域名信息json文件直链，必须设置的变量
 let tgid = ""; //变量名TGID，填入TG机器人ID，不需要提醒则不填
 let tgtoken = ""; //变量名TGTOKEN，填入TG的TOKEN，不需要提醒则不填
 let days = "7"; //变量名DAYS，提前几天发送TG提醒，默认为7天，必须为大于0的整数
